@@ -1,22 +1,18 @@
 ﻿// zadanie dzień 4
 
-var name = "Ewa";
-var sex = "Woman";
-var age = 33;
-var age2 = 29;
-var age3 = 17;
+string name = "Ewa";
+string gender = "female";
+var age = 17;
 
-if (sex == "Woman" && age2 == 29)
+if (gender == "female" && age < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-
-if (name == "Ewa" && age == 33)
+else if (name == "Ewa" && age == 33)
 {
     Console.WriteLine("Ewa, lat 33");
 }
-
-if (age3 == 17)
+else if (gender == "male" && age <18)
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
 }
